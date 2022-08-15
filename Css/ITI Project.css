@@ -1,0 +1,227 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* reseting body style */
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Body {
+    max-width: 1530px;
+    margin-left: 356px;
+    margin-right: 40px;
+}
+
+.SideNavBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #F44336;
+    display: block;
+    z-index: 5;
+}
+
+.NavSector1 {
+    color: white;
+    padding-top: 90px;
+    padding-left: 33px;
+    padding-bottom: 54px;
+}
+
+.NavSector2 a {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    padding-left: 18px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 85%;
+}
+
+.NavSector2 a:hover {
+    color: black;
+    background-color: white;
+}
+
+.HeadLine {
+    width: 100%;
+    display: inline-block;
+    margin-top: 90px;
+}
+
+.Titles {
+    margin-top: 11px;
+    font-size: 48px;
+    color: #F44336;
+    font-weight: 700;
+}
+
+/* underline of every header */
+.TitleBorder {
+    margin-top: 20px;
+    border: 5px solid #FF0000;
+    border-radius: 5px;
+    width: 50px;
+    margin-bottom: 36px;
+}
+
+.MainImgsDivContainer {
+    display: flex;
+}
+/* for two divs holding 6 imgs */
+.SubContanier {
+    padding-right: 16px;
+    width: 50%;
+}
+
+.SubContanier img {
+    width: 100%;
+    opacity: 0.8;
+    padding-bottom: 3px;
+}
+
+.SubContanier img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.TeamContainer {
+    display: inline-block;
+    display: flex;
+}
+
+.TeamMembers {
+    width: 100%;
+    max-width: 490px;
+    margin-right: 12px;
+    background-color: #F1F1F1;
+    padding-bottom: 20px;
+}
+
+.TeamMembers div {
+    padding-left: 20px;
+}
+
+.TeamMembers img {
+    max-width: 100%;
+    filter: saturate(20%);
+}
+
+.Names {
+    font-size: x-large;
+}
+
+.Job {
+    color: #7E7E7E;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+/* div container of tables section */
+.TwoTableContainer {
+    display: flex;
+    margin-top: 10px;
+}
+
+.LeftTableContainer {
+    flex: 50%;
+    padding: 8px;
+}
+
+.LeftTable th {
+    text-align: center;
+    color: white;
+    background-color: #616161;
+    padding: 34px;
+    font-size: x-large;
+    font-weight: 200;
+}
+
+.RightTableContainer {
+    flex: 50%;
+    padding: 8px;
+}
+
+.RightTable th {
+    text-align: center;
+    color: white;
+    background-color: #F44336;
+    padding: 34px;
+    font-size: x-large;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    color: black;
+    background-color: #F1F1F1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/* solving styling issue in table */
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.Button {
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+}
+
+.Button:hover {
+    color: white !important;
+    background-color: black !important;
+    cursor: pointer;
+}
+
+form {
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.ContactInfo {
+    border: 1px solid #d1d1d1;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.input:active {
+    border: 1px solid black;
+}
+
+/* footer section */
+.Signature {
+    background-color: #F1F1F1;
+    position: relative;
+    text-align: right;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Signature a {
+    position: absolute;
+    right: 5%;
+    color: black;
+}
